@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 229, 191);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    height: 370px;
+    box-shadow: 5px 5px 10px gray;
+    margin: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(169, 110, 0);
+    background-color: rgb(255, 204, 110);
+    color: rgb(102, 66, 8);
+    padding: 6px 15px 6px 15px;
+    border-radius: 6px;
+}
+
+.info {}
+
+.item {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.item p{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item p span{
+    color: rgb(27, 126, 218);
+}
+
+.img-icon {
+    width: 15px;
+    height: 15px;
+}
+
+.progress {
+    margin-bottom: 30px;
+}
+.progress p{
+    margin-top: 10px;
+    color: rgb(10, 12, 84);
+    font-size: 16px;
+    font-weight: bold;
+}
+.progress p span{
+    color: gray;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+    ;
+    align-items: center;
+}
+
+.range {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 6px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(250, 207, 150);
+}
+
+.range-orange {
+    width: 76%;
+    height: 6px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer p{
+    color: rgb(6, 6, 94);
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.img-acc-1{
+    width: 30px;
+    position: absolute;
+    left: 10px;
+}
+.img-acc-2 {
+    width: 30px;
+    position: absolute;
+    left: 30px;
+}
+.img-acc-3{
+    width: 30px;
+    position: absolute;
+    right: 100px;
+}
+
+
+
+
+
